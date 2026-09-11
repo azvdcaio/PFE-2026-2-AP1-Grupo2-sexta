@@ -35,6 +35,14 @@ Os principais envolvidos no projeto são as empresas apresentadas no site, as pe
 
 ### 3.2 Resumo dos Usuários
 
+Os usuários do site são principalmente pessoas que acessam o hub para conhecer as empresas, entender suas propostas e buscar informações para decidir se desejam entrar em contato.
+
+- **Visitantes:** qualquer pessoa que acesse o site para conhecer as empresas, visualizar seus conteúdos ou encontrar informações de contato.
+- **Potenciais clientes:** pessoas que ainda não possuem uma relação com as empresas e acessam o site para conhecer os serviços oferecidos. Podem utilizar o Hub para identificar qual empresa atende melhor aos seus interesses e posteriormente entrar em contato.
+- **Atletas Jovens:** pessoas interessadas em treinamento, desenvolvimento esportivo e melhoria de desempenho. Podem acessar principalmente a página da PKZlab para conhecer sua proposta e serviços.
+- **Atletas Adultos:** em treinamento pessoas que procuram treinamento personalizado, condicionamento físico ou melhoria de desempenho. Podem utilizar o site para conhecer principalmente a proposta da One to One.
+- **Pais e responsáveis:** pessoas que procuram informações sobre treinamento e desenvolvimento físico para crianças ou adolescentes. Podem utilizar o site para conhecer as empresas e seus serviços antes de realizar um contato.
+
 ---
 
 ## 4. Visão Geral do Produto

@@ -47,10 +47,26 @@ O projeto compreende o planejamento, design, prototipação e desenvolvimento de
 ## 2. Posicionamento
 
 ### 2.1 Oportunidade de Negócio
+A holding esportiva detém duas frentes de atuação bem definidas com o PKZ Lab e a One to One, porém a ausência de um canal oficial centralizado fragmenta a presença digital do grupo. O desenvolvimento de um portal web interativo atuando como Hub cria a oportunidade de consolidar a identidade visual das empresas, oferecendo uma experiência mais moderna e profissional. Esta centralização digital permite captar de forma mais objetiva potenciais clientes, pais e atletas, organizando o portfólio de treinamentos e facilitando a tomada de decisão através de uma comunicação direta e sem excesso de informações.
 
 ### 2.2 Descrição do Problema
+O formato abaixo padroniza a identificação do problema que o software visa resolver:
+
+- **O problema de:** informações da empresa espalhadas em diferentes lugares e apresentação visual inconsistente da marca.
+- **Afeta:** alunos, pais, responsáveis de alunos menores, atletas de diferentes idades e possíveis novos clientes.
+- **Cujo impacto é:** a dificuldade em comunicar de maneira clara as diferentes propostas de valor do grupo e a falta de uma vitrine institucional adequada para os serviços oferecidos.
+- **Uma solução ideal seria:** a criação de uma plataforma web moderna estruturada como Hub, contendo uma página inicial com navegação simples que direcione o usuário para landing pages específicas de cada marca, utilizando hierarquia visual clara e chamadas para ação (CTAs) evidentes.
 
 ### 2.3 Declaração de Posicionamento
+O formato a seguir resume o propósito em relação ao seu público e concorrentes (ou métodos atuais de contorno):
+
+- **Para:** atletas em desenvolvimento, atletas de alta performance, pais, responsáveis e pessoas interessadas em treinamento personalizado
+- **Que:** buscam serviços esportivos estruturados e necessitam de uma comunicação acessível para conhecer a infraestrutura e a metodologia.
+- **O:** Portal Institucional da Holding
+- **É um:** Hub web e vitrine digital
+- **Que:** centraliza a presença das marcas, melhorando a apresentação visual dos serviços oferecidos e direcionando adequadamente o usuário.
+- **Diferente de:** manter os dados do negócio dispersos em diferentes plataformas sem uma identidade visual unificada
+- **Nosso produto:** oferece uma experiência de navegação limpa, responsiva e intuitiva, separando claramente as propostas do PKZ Lab e da One to One através de design estratégico e portfólios visuais que facilitam o contato imediato.
 
 ---
 

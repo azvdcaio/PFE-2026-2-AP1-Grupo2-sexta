@@ -3,10 +3,44 @@
 ## 1. Introdução
 
 ### 1.1 Propósito
+O propósito deste documento é especificar a visão geral, os objetivos e o escopo da nova plataforma web institucional para a Holding Esportiva que integra o PKZ Lab e a One to One.
+O projeto visa centralizar as informações da holding em uma solução digital moderna, resolver a dispersão de dados e consolidar a presença digital e a identidade visual das empresas. A plataforma servirá como a vitrine institucional para apresentar os serviços de desenvolvimento de atletas e treinamento personalizado, facilitando a tomada de decisão e o contato por parte de potenciais clientes, atletas, pais e responsáveis.
 
 ### 1.2 Escopo
+O projeto compreende o planejamento, design, prototipação e desenvolvimento de um portal web institucional interativo, responsivo e de fácil navegação, atuando como o Hub central de comunicação da holding.
+
+**O que está INCLUÍDO no escopo:**
+- **Página Inicial (Hub Principal):**
+    - Apresentação geral da holding com foco em clareza visual, evitando excesso de informações na primeira tela.
+    - Hero Section marcante com frase de impacto e Call to Action (CTA) visível.
+    - Estrutura de navegação intuitiva (com header e navegação por scrolling) para escolha direta entre as marcas do grupo via cards ou ícones direcionadores.
+- **Landing Page "PKZ Lab":**
+    - Apresentação institucional focada em avaliação física, planejamento de treino, evolução do desempenho e desenvolvimento esportivo (especialmente voltada para Atletas Jovens, Atletas Adultos e Pais/Responsáveis).
+    - Exibição de serviços detalhados e portfólio de treinamentos.
+    - Chamadas para ação (CTAs) e canais diretos de contato.
+- **Landing Page "One to One":**
+    - Apresentação institucional focada em treinamento personalizado e condicionamento físico para diferentes públicos (atletas e não atletas).
+    - Exibição dos serviços oferecidos, infraestrutura e portfólio visual.
+    - CTAs direcionados para atendimento e informações.
+- **Página de Contato:**
+    - Formulário de mensagem e links diretos para atendimento via WhatsApp e outros canais oficiais.
+- **Design e Prototipação:**
+    - Criação de protótipos de alta fidelidade no Figma, garantindo hierarquia visual clara, boa aplicação de contraste e critérios básicos de acessibilidade web.
+- **O que está FORA do escopo nesta fase (Melhorias Futuras):**
+    - Áreas restritas com sistema de login e autenticação de usuários.
+    - Cadastro de alunos, agendamento automatizado de avaliações ou gestão de matrículas.
+    - Módulos de pagamento ou checkout online.
+
 
 ### 1.3 Definições, Acrônimos e Abreviações
+| **Termo/Sigla**  | **Definição** |
+|------------------|:--------------:|
+| **Holding:**     |  Estrutura empresarial que reúne e faz a gestão institucional de marcas do mesmo segmento (neste projeto, PKZlab e One to One).|
+| **Hub:**         |  Página inicial centralizadora do site que apresenta a holding e oferece acessos diretos e intuitivos para as landing pages das empresas do grupo.|
+| **Pkz Lab:**     |  Empresa do grupo especializada no desenvolvimento e treinamento de atletas, avaliação física, planejamento de treino e alta performance esportiva.|
+| **One To One:**   |  Empresa do grupo focada em treinamento personalizado e condicionamento físico voltado para diversos públicos (atletas e não atletas).|
+| **Landing Page:** |  Página web direcionada e estruturada para apresentar a proposta de valor, os serviços e o portfólio de uma empresa específica, incentivando o contato do visitante.|
+|**Hero Section:**  |  Seção de destaque no topo da página web, composta por uma frase de impacto, elementos visuais marcantes e botão de ação principal.| 
 
 ---
 

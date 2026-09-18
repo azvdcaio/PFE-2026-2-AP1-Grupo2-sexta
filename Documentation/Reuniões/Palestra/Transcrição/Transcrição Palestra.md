@@ -1,4 +1,4 @@
-# Transcrição da entrevista com  Pkzlab & One to One
+# Transcrição da Palestra com Pkzlab & One to One
 
 *Transcrição na íntegra do áudio:*
 

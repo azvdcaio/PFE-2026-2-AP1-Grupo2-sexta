@@ -269,13 +269,91 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
 ## 6. Restrições e Premissas
 
 ### 6.1 Restrições
+- **Técnica**
+  - Definição: a stack é fixada pelo conteúdo da disciplina — React com Vite, Git/GitHub para versionamento, hospedagem via GitHub Pages ou Vercel.
+  - Implica: qualquer necessidade do cliente que exija backend, banco de dados ou autenticação real (ex.: matrícula com pagamento) não pode ser atendida nesta fase.
+  - Ação: comunicar ao cliente como fora do escopo, não simplesmente ignorar.
+- **De cronograma**
+  - Definição: as datas de entrega (AP1, revisões, publicação, AP2) são fixas e definidas pela disciplina, não pela equipe nem pelo cliente.
+  - Implica: qualquer atraso do lado do cliente (aprovação de conteúdo, por exemplo) reduz o tempo de desenvolvimento da equipe, e não o prazo final.
+  - Ação: a equipe absorve o risco, não o adia.
+- **De custo**
+  - Definição: o projeto não tem orçamento monetário, mas o tempo de cada integrante é o recurso limitado e mensurável do projeto.
+  - Implica: cada hora gasta em uma funcionalidade fora do essencial (ex.: cadastro/login) é uma hora a menos nas entregas centrais (Hub, landing pages, contato).
+  - Ação: essa alocação precisa ser explicitamente decidida, não apenas acontecer.
+- **De cliente real**
+  - Definição: a PKZ Lab e a One to One têm suas próprias rotinas, fora do calendário acadêmico.
+  - Implica: decisões sobre identidade visual, aprovação de conteúdo e validação de telas dependem deles.
+  - Ação: a equipe não tem autoridade para forçar prazos de resposta do cliente.
+- **De conhecimento da equipe**
+  - Definição: partes do conteúdo técnico necessário (hooks, roteamento) são ensinadas ao longo do semestre, em paralelo ao desenvolvimento.
+  - Implica: o que pode ser tecnicamente entregue nas Sprints iniciais é restrito.
+  - Ação: a complexidade da solução deve crescer junto com o conteúdo já visto em aula, não antes.
+- **Avaliativa**
+  - Definição: o professor avalia o processo, não só o produto — isso inclui controle de tempo, coerência entre backlog e entregas, e justificativa de decisões tomadas.
+  - Implica: uma funcionalidade tecnicamente correta mas sem rastro de planejamento (Sprint Backlog, retrospectivas) pode ser penalizada.
+  - Ação: manter o registro de planejamento sempre atualizado e coerente com as entregas.
 
 ### 6.2 Premissas
+- **Conteúdo do cliente dentro da janela da Sprint**
+  - Assume-se: o cliente fornecerá conteúdo validado dentro do prazo de cada Sprint.
+  - Se falhar: a landing page correspondente entra em desenvolvimento com conteúdo placeholder, e a substituição pelo conteúdo real vira um item extra de backlog, consumindo tempo não planejado.
+- **Decisão de escopo antecipada**
+  - Assume-se: decisões de escopo (ex.: manter ou cortar login/cadastro) serão tomadas cedo, ainda nas primeiras Sprints.
+  - Se falhar: o risco de estouro de tempo nas Sprints finais aumenta, pressionando a entrega das páginas principais.
+- **Validação do protótipo antes do código**
+  - Assume-se: o protótipo no Figma será validado, pela equipe e pelo cliente, antes de qualquer linha de código de tela ser escrita.
+  - Se falhar: retrabalho de UI é considerado certo, não hipotético.
+- **Registro de tempo por Sprint**
+  - Assume-se: cada Sprint terá registro do tempo gasto por item.
+  - Se falhar: a equipe (e o professor) perdem visibilidade de onde o custo real do projeto está concentrado.
+- **Acesso estável às ferramentas de base**
+  - Assume-se: acesso contínuo a VS Code, Node.js, Git, Figma e GitHub durante todo o semestre.
+  - Se falhar: o cronograma de Sprints perde sentido.
 
 ---
 
 ## 7. Riscos e Dependências
 
 ### 7.1 Riscos
+- **Atraso do cliente na entrega/aprovação de conteúdo**
+  - Causa: rotina própria do PKZ Lab e da One to One, fora do calendário da disciplina.
+  - Impacto: atraso direto na Sprint correspondente.
+  - Mitigação: definir data-limite por Sprint para o conteúdo do cliente; passado esse limite, a equipe segue com placeholder e não trava o restante do cronograma.
+- **Estouro de tempo por funcionalidade não essencial**
+  - Causa: dedicar horas a cadastro/login antes de fechar Hub e landing pages.
+  - Impacto: risco de entregar produto incompleto nas partes que o professor e o cliente mais avaliam.
+  - Mitigação: priorizar backlog explicitamente, com cadastro/login como último item, não competindo por tempo com o essencial.
+- **Divergência entre o que a equipe entende como "pronto" e o que o cliente esperava**
+  - Causa: falta de validação intermediária, só no fim.
+  - Impacto: retrabalho fora do prazo restante.
+  - Mitigação: usar as Sprint Reviews para validação parcial e recorrente com o cliente, não só na entrega final.
+- **Página inicial (Hub) sobrecarregada de informação**
+  - Causa: já identificado no brainstorm como risco de design.
+  - Impacto: perde a proposta de "navegação simples" definida na visão do produto.
+  - Mitigação: revisão de hierarquia visual no protótipo Figma antes da implementação, com verificação específica desse ponto.
+- **Inconsistência visual entre PKZ Lab e One to One**
+  - Causa: as duas marcas têm identidades próprias que precisam conviver num mesmo Hub.
+  - Impacto: quebra a percepção de "holding organizada" que é o próprio objetivo do projeto.
+  - Mitigação: definir um sistema de design compartilhado (tipografia, grid, componentes) antes de iniciar as landing pages individuais.
+- **Curva de aprendizado técnico da equipe**
+  - Causa: React é ensinado ao longo do semestre, em paralelo ao desenvolvimento.
+  - Impacto: Sprints iniciais rendem menos do que Sprints finais, criando desequilíbrio de ritmo.
+  - Mitigação: planejar Sprints iniciais com tarefas de menor complexidade técnica (estrutura, conteúdo estático) e deixar interatividade (hooks, roteamento) para quando o conteúdo já tiver sido visto em aula.
+- **Indisponibilidade de integrante em Sprint crítica**
+  - Causa: fatores pessoais/acadêmicos de qualquer membro do grupo.
+  - Impacto: sobrecarga dos demais, aumento do custo real da Sprint.
+  - Mitigação: distribuir conhecimento entre os membros (nenhuma parte do projeto depende de uma única pessoa) e registrar decisões em documentação, não só na cabeça de quem fez.
 
 ### 7.2 Dependências
+Listadas em ordem de criticidade, as primeiras bloqueiam as seguintes:
+1. **Aprovação e fornecimento de conteúdo pelo cliente** (PKZ Lab e One to One)
+   - Consequência: bloqueia a finalização das landing pages, mesmo que a estrutura técnica já esteja pronta.
+2. **Validação do protótipo no Figma** pela equipe e pelo cliente
+   - Consequência: bloqueia o início da implementação em React, já que codificar sobre protótipo não validado é o principal gatilho de retrabalho identificado.
+3. **Conteúdo técnico lecionado em aula** (componentes, hooks, roteamento)
+   - Consequência: bloqueia a complexidade das funcionalidades que podem entrar em cada Sprint, dado que o projeto avança junto com o cronograma da disciplina.
+4. **Disponibilidade das ferramentas externas** (GitHub, Vercel/GitHub Pages, Node.js/npm)
+   - Consequência: bloqueia builds, deploys e trabalho colaborativo, mas tem baixo risco de falha por serem ferramentas estáveis e amplamente usadas.
+5. **Cronograma fixo da disciplina** (datas de AP1, AP2, feriados)
+   - Consequência: não é uma dependência que pode falhar, mas define o teto de tempo disponível contra o qual todas as outras dependências acima precisam se encaixar.

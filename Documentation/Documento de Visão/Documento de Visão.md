@@ -224,6 +224,46 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
 
 ### 5.2 Requisitos Não Funcionais:
 
+#### Usabilidade:
+
+- A plataforma deverá possuir uma interface simples, intuitiva e consistente, permitindo que o usuário encontre as principais informações e funcionalidades sem dificuldade.
+
+#### Responsividade:
+
+- A plataforma deverá adaptar sua interface para diferentes tamanhos de tela, incluindo computadores, tablets e smartphones.
+
+#### Desempenho:
+
+- As páginas deverão apresentar tempo de carregamento adequado e evitar o uso excessivo de recursos que possam prejudicar a experiência de navegação.
+
+#### Acessibilidade:
+
+- A interface deverá considerar princípios básicos de acessibilidade, incluindo contraste adequado, hierarquia visual, textos alternativos para imagens e elementos de navegação compreensíveis.
+
+#### Segurança:
+
+- Os dados relacionados ao cadastro e à autenticação dos usuários deverão ser tratados de forma segura, especialmente informações utilizadas para acesso às contas.
+
+#### Privacidade:
+
+- Os dados pessoais fornecidos pelos usuários deverão ser tratados de acordo com as normas e políticas de privacidade aplicáveis ao projeto.
+
+#### Compatibilidade:
+
+- A plataforma deverá funcionar adequadamente nos principais navegadores modernos e em diferentes dispositivos.
+
+#### Consistência Visual:
+
+- A plataforma deverá manter padrões consistentes de tipografia, espaçamento, componentes, navegação e identidade visual, preservando também as características individuais do PKZ Lab e da One to One.
+
+#### Manutenibilidade:
+
+- A estrutura da plataforma deverá permitir a manutenção e atualização dos conteúdos, serviços e informações institucionais das empresas.
+
+#### Escalabilidade:
+
+- A solução deverá possuir estrutura que permita a inclusão de novas funcionalidades e conteúdos futuramente, sem exigir a reconstrução completa da plataforma.
+
 ---
 
 ## 6. Restrições e Premissas

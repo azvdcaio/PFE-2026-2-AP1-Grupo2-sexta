@@ -153,17 +153,74 @@ Além da apresentação institucional, a plataforma contará com mecanismos de c
 
 ## 5. Requisitos de Alto Nível
 
+Os requisitos de alto nível definem as principais funcionalidades e características que a plataforma deverá apresentar para atender aos objetivos estabelecidos para o projeto.
+
 ### 5.1 Requisitos Funcionais
 
-#### Informar:
+#### Apresentação da Holding:
 
-#### Cadastrar:
+- O sistema deverá apresentar a Holding Esportiva e sua proposta de atuação.
+- O sistema deverá apresentar de forma clara a relação entre o PKZ Lab e a One to One.
+- O sistema deverá permitir que o usuário identifique facilmente as diferentes empresas pertencentes à holding.
 
-#### Conectar:
+#### Navegação entre as Empresas:
 
-#### Entregar:
+- O sistema deverá permitir que o usuário acesse as páginas específicas do PKZ Lab e da One to One a partir do Hub principal.
+- O sistema deverá disponibilizar uma estrutura de navegação intuitiva entre as principais áreas da plataforma.
+- O sistema deverá permitir que o usuário retorne ao Hub principal a partir das páginas das empresas.
 
-#### Avaliar:
+#### Página Institucional do PKZ Lab:
+
+- O sistema deverá apresentar informações institucionais sobre o PKZ Lab.
+- O sistema deverá apresentar os principais serviços oferecidos pela empresa.
+- O sistema deverá apresentar informações relacionadas à avaliação física, planejamento de treinamento, desenvolvimento esportivo e alta performance para jovens.
+- O sistema deverá apresentar conteúdos direcionados aos diferentes públicos atendidos pela empresa.
+- O sistema deverá disponibilizar chamadas para ação direcionadas ao contato com a empresa.
+
+#### Página Institucional da One to One:
+
+- O sistema deverá apresentar informações institucionais sobre a One to One.
+- O sistema deverá apresentar os principais serviços oferecidos pela empresa.
+- O sistema deverá apresentar informações relacionadas ao treinamento personalizado e condicionamento físico.
+- O sistema deverá apresentar conteúdos direcionados aos diferentes públicos atendidos pela empresa.
+- O sistema deverá disponibilizar chamadas para ação direcionadas ao contato com a empresa.
+
+#### Contato:
+
+- O sistema deverá disponibilizar um formulário para contato.
+- O formulário deverá permitir o preenchimento dos dados necessários para identificação e comunicação com o usuário.
+- O sistema deverá permitir que o usuário indique a empresa com a qual deseja entrar em contato, quando aplicável.
+- O sistema deverá permitir o envio de uma mensagem por meio do formulário.
+- O sistema deverá apresentar uma confirmação após o envio da mensagem.
+- O sistema deverá disponibilizar links ou botões para os canais oficiais de atendimento, como WhatsApp e redes sociais.
+
+#### Cadastro de Usuário:
+
+- O sistema deverá permitir que novos usuários realizem seu cadastro.
+- O sistema deverá solicitar as informações necessárias para a criação da conta.
+- O sistema deverá validar os dados obrigatórios informados pelo usuário.
+- O sistema deverá informar ao usuário quando o cadastro for realizado com sucesso ou quando ocorrer algum erro.
+- O sistema deverá impedir o cadastro de uma conta utilizando informações que já estejam vinculadas a outro usuário, quando aplicável.
+
+#### Login e Acesso:
+
+- O sistema deverá permitir que usuários cadastrados realizem login.
+- O sistema deverá validar as credenciais fornecidas pelo usuário.
+- O sistema deverá informar o usuário caso as credenciais sejam inválidas.
+- O sistema deverá permitir o encerramento da sessão do usuário.
+- O sistema deverá restringir o acesso às áreas destinadas exclusivamente a usuários autenticados.
+
+#### Conteúdo Visual:
+
+- O sistema deverá permitir a apresentação de imagens e vídeos relacionados às empresas e aos serviços oferecidos.
+- O conteúdo visual deverá ser utilizado de forma a reforçar a identidade e a proposta de cada empresa.
+- O sistema deverá manter uma organização visual que facilite a compreensão das informações apresentadas.
+
+#### Chamadas para Ação:
+
+- O sistema deverá apresentar CTAs nas principais áreas da plataforma.
+- Os CTAs deverão direcionar o usuário para ações relevantes, como conhecer uma empresa, entrar em contato, realizar cadastro ou acessar sua conta.
+- Os elementos de ação deverão possuir identificação clara e compreensível.
 
 ### 5.2 Requisitos Não Funcionais:
 

@@ -144,13 +144,11 @@ Além da apresentação institucional, a plataforma contará com mecanismos de c
 
 - **Área de contato:** formulário para envio de mensagens e acesso aos canais oficiais de atendimento.
 
-- **Cadastro de usuários:** possibilidade de criação de uma conta na plataforma.
-
-- **Login de usuários:** autenticação para acesso à área restrita da plataforma.
+- **Login e Cadastro de usuários:** possibilidade de criação de uma conta na plataforma.
 
 - **Portfólio visual:** utilização de imagens, vídeos e elementos gráficos para apresentar a estrutura, os serviços e a identidade das empresas.
 
-- **Chamadas para ação (CTAs):** elementos direcionados para ações como conhecer uma empresa, entrar em contato, realizar cadastro ou acessar a conta.
+- **Chamadas para ação (CTAs):** elementos direcionados para ações como conhecer uma empresa, entrar em contato, realizar cadastro, acessar a conta ou agendar uma aula..
 
 ### 4.2 Restrições
 
@@ -160,7 +158,7 @@ Além da apresentação institucional, a plataforma contará com mecanismos de c
 
 - O cadastro e login deverão respeitar as limitações técnicas e de infraestrutura definidas para o projeto.
 
-- Nesta fase, não serão contempladas funcionalidades complexas de gestão de alunos, matrículas, pagamentos ou agendamentos automatizados, salvo se posteriormente definidas como parte do escopo.
+- Nesta fase, não serão contempladas funcionalidades complexas de gestão de alunos, matrículas ou pagamentos, salvo se posteriormente definidas como parte do escopo.
 
 - O desenvolvimento deverá considerar os recursos técnicos, prazo e conhecimentos disponíveis pela equipe responsável pelo projeto.
 
@@ -228,6 +226,18 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
 - O sistema deverá informar o usuário caso as credenciais sejam inválidas.
 - O sistema deverá permitir o encerramento da sessão do usuário.
 - O sistema deverá restringir o acesso às áreas destinadas exclusivamente a usuários autenticados.
+
+#### Agendamento de Aula:
+
+- O sistema deverá disponibilizar uma página específica para agendamento de aulas.
+- O sistema deverá permitir que o usuário selecione a empresa na qual deseja realizar a aula, quando aplicável.
+- O sistema deverá apresentar os serviços ou modalidades disponíveis para agendamento.
+- O sistema deverá permitir a seleção de uma data e horário disponíveis.
+- O sistema deverá solicitar as informações necessárias para realização do agendamento.
+- O sistema deverá permitir a confirmação da solicitação de agendamento.
+- O sistema deverá apresentar ao usuário uma confirmação após a realização do agendamento.
+- O sistema deverá informar o usuário quando não houver horários disponíveis para a opção selecionada.
+- O sistema deverá permitir que usuários autenticados consultem seus agendamentos, quando essa funcionalidade estiver disponível.
 
 #### Conteúdo Visual:
 

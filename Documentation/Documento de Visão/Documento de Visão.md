@@ -38,14 +38,26 @@ O projeto compreende o planejamento, design, prototipação e desenvolvimento de
   - Preenchimento das informações necessárias para o agendamento.
   - Confirmação da solicitação de agendamento.
 
+- **Página de Login:**
+  - Interface para acesso de usuários cadastrados.
+  - Campos para inserção de e-mail e senha.
+  - Opção de direcionamento para a página de cadastro para usuários que ainda não possuem uma conta.
+
+- **Página de Cadastro:**
+  - Interface para criação de uma nova conta de usuário.
+  - Campos para inserção dos dados necessários para o cadastro.
+  - Validação das informações obrigatórias.
+  - Verificação de dados já cadastrados, quando aplicável.
+  - Opção de direcionamento para a página de login para usuários que já possuem uma conta.
+
 - **Design e Prototipação:**
   - Criação de protótipos de alta fidelidade no Figma, garantindo hierarquia visual clara, boa aplicação de contraste e critérios básicos de acessibilidade web.
 
 **O que está FORA do escopo nesta fase (Melhorias Futuras):**
 
-- Áreas restritas com sistema de login e autenticação de usuários.
-- Cadastro de alunos, agendamento automatizado de avaliações ou gestão de matrículas.
+- Gestão completa de alunos e matrículas.
 - Módulos de pagamento ou checkout online.
+- Sistemas administrativos avançados para gestão interna das empresas.
 
 ### 1.3 Definições, Acrônimos e Abreviações
 

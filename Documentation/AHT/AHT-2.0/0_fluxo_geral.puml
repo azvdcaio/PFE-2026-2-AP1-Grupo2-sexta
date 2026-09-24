@@ -1,0 +1,23 @@
+@startuml 0_fluxo_geral
+title Meta 0 - Conhecer as empresas e entrar em contato
+start
+:Acessar o Hub;
+:Conhecer a holding e suas empresas;
+if (Qual empresa deseja conhecer?) then (PKZ Lab)
+  :Explorar o PKZ Lab;
+else (One to One)
+  :Explorar o One to One;
+endif
+if (Deseja entrar em contato?) then (sim)
+  :Entrar em contato;
+else (não)
+  :Retornar ao Hub;
+endif
+if (Deseja acessar uma conta?) then (sim)
+  :Realizar cadastro;
+  :Fazer login;
+else (não)
+  :Encerrar a navegação;
+endif
+stop
+@enduml

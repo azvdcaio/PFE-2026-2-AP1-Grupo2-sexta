@@ -1,0 +1,15 @@
+@startuml 4_entrar_em_contato
+title Tarefa 4 - Entrar em contato
+start
+:Acessar a página de Contato;
+if (Como deseja falar com a empresa?) then (formulário)
+  :Preencher os dados de identificação e comunicação;
+  :Indicar a empresa desejada;
+  :Escrever a mensagem;
+  :Enviar a mensagem;
+  :Ver a confirmação de envio;
+else (canal oficial)
+  :Clicar no link do WhatsApp ou das redes sociais;
+endif
+stop
+@enduml

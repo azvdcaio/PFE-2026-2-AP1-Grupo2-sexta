@@ -1,0 +1,15 @@
+@startuml 6_fazer_login
+title Tarefa 6 - Fazer login
+start
+:Acessar a tela de login pelo CTA;
+:Informar as credenciais;
+:Enviar as credenciais;
+if (Credenciais válidas?) then (sim)
+  :Acessar a área de usuários autenticados;
+  :Encerrar a sessão;
+else (não)
+  :Ver a mensagem de credenciais inválidas;
+  :Informar as credenciais novamente;
+endif
+stop
+@enduml

@@ -1,0 +1,14 @@
+@startuml 1_conhecer_holding
+title Tarefa 1 - Conhecer a holding no Hub
+start
+:Acessar o Hub (página inicial);
+:Ver a Seção Hero;
+:Navegar pela página (cabeçalho ou scrolling);
+:Conhecer a holding e as diferenças entre as empresas;
+if (Qual empresa deseja conhecer?) then (PKZ Lab)
+  :Clicar no card do PKZ Lab;
+else (One to One)
+  :Clicar no card do One to One;
+endif
+stop
+@enduml

@@ -1,0 +1,16 @@
+@startuml 2_explorar_pkz_lab
+title Tarefa 2 - Explorar o PKZ Lab
+start
+:Acessar a landing page do PKZ Lab;
+:Ler a apresentação institucional;
+:Ver os conteúdos do seu público;
+:Ver os serviços;
+:Ver o portfólio de treinamentos;
+if (Deseja entrar em contato?) then (sim)
+  :Clicar no CTA de contato;
+  :Ir para a página de Contato;
+else (não)
+  :Retornar ao Hub;
+endif
+stop
+@enduml

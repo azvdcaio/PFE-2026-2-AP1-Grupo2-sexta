@@ -1,0 +1,14 @@
+@startuml 5_realizar_cadastro
+title Tarefa 5 - Realizar cadastro
+start
+:Acessar a tela de cadastro pelo CTA;
+:Informar os dados para criação da conta;
+:Enviar o cadastro;
+if (Dados válidos e disponíveis?) then (sim)
+  :Ver a mensagem de sucesso;
+else (não)
+  :Ver a mensagem de erro;
+  :Corrigir os dados e enviar novamente;
+endif
+stop
+@enduml

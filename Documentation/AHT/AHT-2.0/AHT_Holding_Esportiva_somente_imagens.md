@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Esta AHT descreve as tarefas dos usuários no portal institucional da Holding Esportiva (PKZ Lab e One to One). 
+Esta AHT descreve as tarefas dos usuários no portal institucional da Holding Esportiva (PKZ Lab e One to One).
 
 Escopo do projeto:
 
@@ -15,7 +15,8 @@ Notação:
 
 - 0 = meta principal.
 - 1, 2, 3 = tarefas; 1.1, 1.2 = subtarefas.
-- Plano = ordem e condições de execução das subtarefas.
+- Plano = ordem e condições em que o usuário realiza as subtarefas.
+- Cada plano tem um diagrama de atividade em PlantUML na seção 6.
 
 ## 2. Usuários (seção 3.2)
 
@@ -36,7 +37,7 @@ Meta 0: Conhecer as empresas, entender suas propostas e buscar informações par
 - 5 – Realizar cadastro
 - 6 – Fazer login
 
-Plano 0: Fazer 1. Depois fazer 2 ou 3, podendo retornar a 1 a partir das páginas das empresas. Para contatar a empresa, fazer 4. Para acessar a conta, fazer 5 (se ainda não tiver conta) e depois 6.
+Plano 0: O usuário começa pelo Hub (Tarefa 1). Depois escolhe qual empresa quer conhecer: PKZ Lab (Tarefa 2) ou One to One (Tarefa 3), podendo voltar ao Hub a qualquer momento. Se quiser falar com a empresa, entra em contato (Tarefa 4). Se quiser acessar uma conta, faz o cadastro (Tarefa 5), caso ainda não tenha, e depois o login (Tarefa 6).
 
 ## 4. Tarefas
 
@@ -48,18 +49,18 @@ Plano 0: Fazer 1. Depois fazer 2 ou 3, podendo retornar a 1 a partir das página
 - 1.4 Navegar pela página (cabeçalho ou scrolling)
 - 1.5 Escolher a empresa pelos cards ou ícones direcionadores
 
-Plano 1: Fazer 1.1 e 1.2. Fazer 1.3 usando 1.4. Fazer 1.5, que leva à Tarefa 2 ou 3.
+Plano 1: O usuário entra no Hub e vê a Seção Hero. Em seguida, navega pela página, pelo cabeçalho ou rolando a tela, para conhecer a holding e suas empresas. Por fim, clica no card da empresa que quer conhecer, indo para a Tarefa 2 ou 3.
 
 ### Tarefa 2 – Explorar o PKZ Lab
 
 - 2.1 Acessar a landing page do PKZ Lab a partir do Hub
 - 2.2 Ler a apresentação institucional
-- 2.3 Ver os conteúdos direcionados ao seu público (jovens, atletas de base e pais/responsáveis)
+- 2.3 Ver os conteúdos direcionados ao seu público (jovens, atletas de base e Pais/Responsáveis)
 - 2.4 Ver os serviços (avaliação física, planejamento de treino, evolução do desempenho, desenvolvimento esportivo e alta performance)
 - 2.5 Ver o portfólio de treinamentos (imagens e vídeos)
 - 2.6 Clicar no CTA de contato ou retornar ao Hub
 
-Plano 2: Fazer 2.1 e 2.2. Fazer 2.3 a 2.5 em qualquer ordem. Em 2.6, o CTA leva à Tarefa 4 e o retorno leva à Tarefa 1.
+Plano 2: O usuário entra na página do PKZ Lab e lê a apresentação. Depois vê o conteúdo para o seu público, os serviços e o portfólio, na ordem que quiser. No fim, clica no botão de contato (vai para a Tarefa 4) ou volta ao Hub (Tarefa 1).
 
 ### Tarefa 3 – Explorar o One to One
 
@@ -70,7 +71,7 @@ Plano 2: Fazer 2.1 e 2.2. Fazer 2.3 a 2.5 em qualquer ordem. Em 2.6, o CTA leva 
 - 3.5 Ver a infraestrutura e o portfólio visual (imagens e vídeos)
 - 3.6 Clicar no CTA de atendimento e informações ou retornar ao Hub
 
-Plano 3: Fazer 3.1 e 3.2. Fazer 3.3 a 3.5 em qualquer ordem. Em 3.6, o CTA leva à Tarefa 4 e o retorno leva à Tarefa 1.
+Plano 3: O usuário entra na página do One to One e lê a apresentação. Depois vê o conteúdo para o seu público, os serviços, a infraestrutura e o portfólio, na ordem que quiser. No fim, clica no botão de atendimento (vai para a Tarefa 4) ou volta ao Hub (Tarefa 1).
 
 ### Tarefa 4 – Entrar em contato
 
@@ -82,7 +83,7 @@ Plano 3: Fazer 3.1 e 3.2. Fazer 3.3 a 3.5 em qualquer ordem. Em 3.6, o CTA leva 
 - 4.6 Ver a confirmação de envio
 - 4.7 Clicar no link ou botão do canal oficial (WhatsApp ou redes sociais)
 
-Plano 4: Fazer 4.1 e 4.2. Se escolher o formulário, fazer 4.3 a 4.6 em sequência. Se escolher um canal oficial, fazer 4.7.
+Plano 4: O usuário entra na página de Contato e escolhe como quer falar com a empresa. Se escolher o formulário, preenche seus dados, indica a empresa, escreve e envia a mensagem, e vê a confirmação de envio. Se preferir um canal oficial, clica no link do WhatsApp ou das redes sociais.
 
 ### Tarefa 5 – Realizar cadastro
 
@@ -93,7 +94,7 @@ Plano 4: Fazer 4.1 e 4.2. Se escolher o formulário, fazer 4.3 a 4.6 em sequênc
 - 5.5 Informar outros dados, se já estiverem vinculados a outro usuário (quando aplicável)
 - 5.6 Ver a mensagem de sucesso
 
-Plano 5: Fazer 5.1 a 5.3. Se houver erro, fazer 5.4 ou 5.5 e repetir 5.3. Com sucesso, fazer 5.6.
+Plano 5: O usuário abre a tela de cadastro, preenche seus dados e envia. Se algum dado estiver errado ou já estiver em uso por outro usuário, ele corrige e envia de novo. Quando o cadastro dá certo, vê a mensagem de sucesso.
 
 ### Tarefa 6 – Fazer login
 
@@ -104,7 +105,7 @@ Plano 5: Fazer 5.1 a 5.3. Se houver erro, fazer 5.4 ou 5.5 e repetir 5.3. Com su
 - 6.5 Acessar a área de usuários autenticados
 - 6.6 Encerrar a sessão
 
-Plano 6: Fazer 6.1 a 6.3. Se as credenciais forem inválidas, fazer 6.4 e repetir 6.2 e 6.3. Se válidas, fazer 6.5 e, ao terminar, 6.6.
+Plano 6: O usuário abre a tela de login, informa suas credenciais e envia. Se estiverem erradas, vê a mensagem de erro e tenta de novo. Se estiverem certas, acessa a área de usuários autenticados e, ao terminar, encerra a sessão.
 
 Observação sobre as Tarefas 5 e 6: são desenvolvidas as telas. A criação da conta, a validação dos dados e das credenciais, a sessão e a área restrita exigem back-end e autenticação real, que não serão atendidos no projeto (seções 1.2 e 6.1).
 
@@ -117,9 +118,58 @@ Observação sobre as Tarefas 5 e 6: são desenvolvidas as telas. A criação da
 - Tarefa 5: Cadastro de Usuário (somente a tela); Chamadas para Ação.
 - Tarefa 6: Login e Acesso (somente a tela); Chamadas para Ação.
 
-## 6. Conclusão
+## 6. Diagramas de atividade (PlantUML)
+
+Cada plano descrito acima foi representado em um diagrama de atividade, feito em PlantUML. Abaixo está a imagem de cada diagrama. O código PlantUML de cada um está no arquivo .puml indicado, nesta mesma pasta.
+
+Para gerar os diagramas no VS Code: instale a extensão PlantUML, tenha o Java instalado, abra o arquivo .puml e use a pré-visualização (Alt+D).
+
+### Diagrama geral – Meta 0
+
+Arquivo: 0_fluxo_geral.puml
+
+![Diagrama 0_fluxo_geral.png](0_fluxo_geral.png)
+
+### Tarefa 1 – Conhecer a holding no Hub
+
+Arquivo: 1_conhecer_holding.puml
+
+![Diagrama 1_conhecer_holding.png](1_conhecer_holding.png)
+
+### Tarefa 2 – Explorar o PKZ Lab
+
+Arquivo: 2_explorar_pkz_lab.puml
+
+![Diagrama 2_explorar_pkz_lab.png](2_explorar_pkz_lab.png)
+
+### Tarefa 3 – Explorar o One to One
+
+Arquivo: 3_explorar_one_to_one.puml
+
+![Diagrama 3_explorar_one_to_one.png](3_explorar_one_to_one.png)
+
+### Tarefa 4 – Entrar em contato
+
+Arquivo: 4_entrar_em_contato.puml
+
+![Diagrama 4_entrar_em_contato.png](4_entrar_em_contato.png)
+
+### Tarefa 5 – Realizar cadastro
+
+Arquivo: 5_realizar_cadastro.puml
+
+![Diagrama 5_realizar_cadastro.png](5_realizar_cadastro.png)
+
+### Tarefa 6 – Fazer login
+
+Arquivo: 6_fazer_login.puml
+
+![Diagrama 6_fazer_login.png](6_fazer_login.png)
+
+## 7. Conclusão
 
 A AHT mostra que a meta principal do usuário é conhecer as empresas da holding e decidir se deseja entrar em contato. O caminho principal é: Hub, escolha da empresa (PKZ Lab ou One to One) e contato, pelo formulário ou pelos canais oficiais. As páginas das empresas permitem retornar ao Hub, e os CTAs levam o usuário ao contato, ao cadastro ou ao login.
 
 As Tarefas 1 a 4 formam o núcleo do portal (Hub, landing pages e contato) e são desenvolvidas por completo no front-end. As Tarefas 5 e 6 são desenvolvidas como telas, pois o funcionamento do cadastro e do login exige back-end e autenticação real, que não serão atendidos no projeto (seções 1.2 e 6.1).
 
+Os diagramas de atividade da seção 6 mostram esses mesmos fluxos em forma visual, com as decisões de cada tarefa.

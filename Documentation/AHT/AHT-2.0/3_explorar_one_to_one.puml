@@ -1,0 +1,16 @@
+@startuml 3_explorar_one_to_one
+title Tarefa 3 - Explorar o One to One
+start
+:Acessar a landing page do One to One;
+:Ler a apresentação institucional;
+:Ver os conteúdos do seu público;
+:Ver os serviços;
+:Ver a infraestrutura e o portfólio visual;
+if (Deseja atendimento ou informações?) then (sim)
+  :Clicar no CTA de atendimento;
+  :Ir para a página de Contato;
+else (não)
+  :Retornar ao Hub;
+endif
+stop
+@enduml

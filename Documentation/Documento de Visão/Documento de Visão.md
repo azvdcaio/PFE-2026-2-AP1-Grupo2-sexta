@@ -31,6 +31,13 @@ O projeto compreende o planejamento, design, prototipação e desenvolvimento de
 - **Página de Contato:**
   - Formulário de mensagem e links diretos para atendimento via WhatsApp e outros canais oficiais.
 
+- **Página de Agendamento de Aula:**
+  - Apresentação das opções de aulas ou modalidades disponíveis.
+  - Seleção da empresa ou serviço desejado.
+  - Seleção de data e horário disponíveis.
+  - Preenchimento das informações necessárias para o agendamento.
+  - Confirmação da solicitação de agendamento.
+
 - **Design e Prototipação:**
   - Criação de protótipos de alta fidelidade no Figma, garantindo hierarquia visual clara, boa aplicação de contraste e critérios básicos de acessibilidade web.
 
@@ -269,6 +276,7 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
 ## 6. Restrições e Premissas
 
 ### 6.1 Restrições
+
 - **Técnica**
   - Definição: a stack é fixada pelo conteúdo da disciplina — React com Vite, Git/GitHub para versionamento, hospedagem via GitHub Pages ou Vercel.
   - Implica: qualquer necessidade do cliente que exija backend, banco de dados ou autenticação real (ex.: matrícula com pagamento) não pode ser atendida nesta fase.
@@ -295,6 +303,7 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
   - Ação: manter o registro de planejamento sempre atualizado e coerente com as entregas.
 
 ### 6.2 Premissas
+
 - **Conteúdo do cliente dentro da janela da Sprint**
   - Assume-se: o cliente fornecerá conteúdo validado dentro do prazo de cada Sprint.
   - Se falhar: a landing page correspondente entra em desenvolvimento com conteúdo placeholder, e a substituição pelo conteúdo real vira um item extra de backlog, consumindo tempo não planejado.
@@ -316,6 +325,7 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
 ## 7. Riscos e Dependências
 
 ### 7.1 Riscos
+
 - **Atraso do cliente na entrega/aprovação de conteúdo**
   - Causa: rotina própria do PKZ Lab e da One to One, fora do calendário da disciplina.
   - Impacto: atraso direto na Sprint correspondente.
@@ -346,7 +356,9 @@ Os requisitos de alto nível definem as principais funcionalidades e caracterís
   - Mitigação: distribuir conhecimento entre os membros (nenhuma parte do projeto depende de uma única pessoa) e registrar decisões em documentação, não só na cabeça de quem fez.
 
 ### 7.2 Dependências
+
 Listadas em ordem de criticidade, as primeiras bloqueiam as seguintes:
+
 1. **Aprovação e fornecimento de conteúdo pelo cliente** (PKZ Lab e One to One)
    - Consequência: bloqueia a finalização das landing pages, mesmo que a estrutura técnica já esteja pronta.
 2. **Validação do protótipo no Figma** pela equipe e pelo cliente

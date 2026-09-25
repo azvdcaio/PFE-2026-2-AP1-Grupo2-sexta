@@ -38,7 +38,7 @@ Por se tratar de um projeto com **cliente real** dentro de uma disciplina com av
 | **Disciplina** | Projeto Front-End |
 | **Instituição** | IBMEC |
 | **Turma** | Barra — Sexta-feira |
-| **Professor** | Thiago Marcondes Santos ([thiago.marcondes@professores.ibmec.edu.br](mailto:thiago.marcondes@professores.ibmec.edu.br)) |
+| **Professor** | Thiago Marcondes Santos |
 | **Grupo** | Grupo 2 |
 | **Entrega atual** | AP1 — Documentação (2026.2) |
 
@@ -57,10 +57,10 @@ Por se tratar de um projeto com **cliente real** dentro de uma disciplina com av
 | Pasta | Conteúdo |
 |---|---|
 | [`Documentation/Brainstorm`](./Documentation/Brainstorm/Brainstorm.md) | Levantamento inicial de ideias: estrutura da holding, problemas identificados, público-alvo, estrutura proposta para o site e diretrizes de design. |
-| [`Documentation/Reuniões`](./Documentation/Reuniões/Palestra) | Atas, transcrições e áudios das reuniões realizadas com o cliente (PKZ Lab e One to One) e com a equipe, organizados por encontro. |
+| [`Documentation/Reuniões`](./Documentation/Reuniões) | Atas, transcrições e áudios das reuniões realizadas com o cliente (PKZ Lab e One to One) e com a equipe, organizados por encontro. |
 | [`Documentation/Documento de Visão`](./Documentation/Documento%20de%20Visão/Documento%20de%20Visão.md) | Documento de Visão completo: introdução, posicionamento, stakeholders, visão geral do produto, requisitos de alto nível, restrições, premissas, riscos e dependências. |
 | [`Documentation/5W2H`](./Documentation/5W2H/5w2h.md) | Detalhamento operacional do projeto demonstrando o quê, por quê, quem, onde, quando, como e quanto. |
-| [`Documentation/AHT`](./Documentation/AHT/AHT%203.0) | Análise Hierárquica de Tarefas dos principais fluxos do produto, dividida por etapa: [Hub](./Documentation/AHT/AHT%203.0/AHT_1_Hub.md), [PKZ Lab](./Documentation/AHT/AHT%203.0/AHT_2_PKZ_Lab.md), [One to One](./Documentation/AHT/AHT%203.0/AHT_3_One_to_One.md), [Contato e Agendamento](./Documentation/AHT/AHT%203.0/AHT_4_Contato_e_Agendamento.md) e [Login e Cadastro](./Documentation/AHT/AHT%203.0/AHT_5_Login_e_Cadastro.md) — reunidas em [AHT_completa.md](./Documentation/AHT/AHT%203.0/AHT_completa.md). Versão anterior consolidada em [AHT_Holding_Esportiva_1.0.md](./Documentation/AHT/AHT_Holding_Esportiva_1.0.md). |
+| [`Documentation/AHT`](./Documentation/AHT/AHT%203.0) | Análise Hierárquica de Tarefas dos principais fluxos do produto, dividida por etapas, Hub, PKZ Lab, One to One, Contato e Agendamento e Login e Cadastro, reunidas em [AHT_completa.md](./Documentation/AHT/AHT%203.0/imagens). Versão anterior consolidada em [AHT_Holding_Esportiva_1.0.md](./Documentation/AHT/AHT_Holding_Esportiva_1.0.md). |
 | [`Documentation/Mindmap`](./Documentation/Mindmap/mapa_mental.png) | Mapa mental estruturando visualmente o conteúdo do Documento de Visão. |
 | [`Documentation/Figma`](./Documentation/Figma) | Protótipo visual do projeto com telas do Hub, landing pages e página de contato/agendamento. |
 

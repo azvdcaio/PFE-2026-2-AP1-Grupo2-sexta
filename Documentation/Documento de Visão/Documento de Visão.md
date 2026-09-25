@@ -146,7 +146,7 @@ Além da apresentação institucional, a plataforma contará com mecanismos de c
 
 - **Login e Cadastro de usuários:** possibilidade de criação de uma conta na plataforma.
 
-- **Portfólio visual:** utilização de imagens, vídeos e elementos gráficos para apresentar a estrutura, os serviços e a identidade das empresas.
+- **Portfólio visual:** utilização de imagens e vídeos para apresentar os serviços e a identidade das empresas.
 
 - **Chamadas para ação (CTAs):** elementos direcionados para ações como conhecer uma empresa, entrar em contato, realizar cadastro, acessar a conta ou agendar uma aula..
 

@@ -63,5 +63,5 @@ Por se tratar de um projeto com **cliente real** dentro de uma disciplina com av
 | [`Documentation/AHT`](./Documentation/AHT/AHT%203.0) | Análise Hierárquica de Tarefas dos principais fluxos do produto, dividida por etapas, Hub, PKZ Lab, One to One, Contato e Agendamento e Login e Cadastro, reunidas em [AHT_completa.md](./Documentation/AHT/AHT%203.0/imagens). Versão anterior consolidada em [AHT_Holding_Esportiva_1.0.md](./Documentation/AHT/AHT_Holding_Esportiva_1.0.md). |
 | [`Documentation/Mindmap`](./Documentation/Mindmap/mapa_mental.png) | Mapa mental estruturando visualmente o conteúdo do Documento de Visão. |
 | [`Documentation/Figma`](./Documentation/Figma) | Protótipo visual do projeto com telas do Hub, landing pages e página de contato/agendamento. |
-
+| [`Documentation/Scrum`](./Documentation/Scrum) | Documentos do processo de pensamento e aproveitamento do material disponibilizado, também o andamento do projeto. |
 > Este índice é atualizado conforme a documentação evolui.
